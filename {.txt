@@ -1,0 +1,14 @@
+{
+  "name": "playwright-automation-tests",
+  "version": "1.0.0",
+  "description": "Beginner-friendly Playwright automation testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0"
+  }
+}
